@@ -3,3 +3,23 @@ body {
     background-position: bottom center;
     background-attachment: fixed;
 }
+
+
+
+::selection {
+  background: #ffcd85; 
+  color: darkblue; 
+}
+
+@font-face {
+  font-family: "Captain America"; 
+  src: url('http://static.tumblr.com/npggxjg/Pn5mdpggw/american_captain.ttf');
+}
+
+
+
+h1{
+font-family: "Captain America"; 
+color:#ffcd85;
+font-size: 20em;
+}
