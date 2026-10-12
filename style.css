@@ -13,13 +13,20 @@ body {
 
 @font-face {
   font-family: "Captain America"; 
-  src: url('http://static.tumblr.com/npggxjg/Pn5mdpggw/american_captain.ttf');
+  src: url('graphics/american_captain.ttf') format('truetype');
 }
 
+ @font-face {font-family: "Pacifico";
+src:url('graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('woff);
+}
 
 
 h1{
 font-family: "Captain America"; 
 color:#ffcd85;
-font-size: 20em;
+font-size: 15em;
+}
+
+p{
+   font-family: "Pacifico";
 }
