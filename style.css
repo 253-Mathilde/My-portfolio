@@ -1,5 +1,5 @@
 body {
-  background-image: url('graphics/light.png');
-  background-repeat:no-repeat;
-  background-size:content;
+    background-image: url(graphics/light.png);
+    background-position: bottom center;
+    background-attachment: fixed;
 }
