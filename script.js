@@ -29,7 +29,7 @@ function getMousePosition(e) {
 document.addEventListener("mousemove", getMousePosition);
 document.addEventListener("touchmove", getMousePosition);
 
-
-addEventListener("taschenlampe", "click", function(){
- document.getElementById("flashlight").style.display = "block";
+const taschenlampe = document.getElementById("taschenlampe");
+taschenlampe.addEventListener("click", function(){
+  document.getElementById("flashlight").style.display = "block";
 });
