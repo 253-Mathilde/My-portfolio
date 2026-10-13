@@ -30,6 +30,12 @@ document.addEventListener("mousemove", getMousePosition);
 document.addEventListener("touchmove", getMousePosition);
 
 const taschenlampe = document.getElementById("taschenlampe");
+const flashlightDiv = document.getElementById("flashlight");
+
 taschenlampe.addEventListener("click", function(){
-  document.getElementById("flashlight").style.display = "block";
+  if (flashlightDiv.style.display === "block") {
+    flashlightDiv.style.display = "none";
+  } else {
+    flashlightDiv.style.display = "block";
+  }
 });
