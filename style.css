@@ -2,6 +2,8 @@ body {
     background-image: url(graphics/light.png);
     background-position: bottom center;
     background-attachment: fixed;
+     overflow-x: hidden;
+     overflow-y:hidden;
 }
 
 
