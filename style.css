@@ -75,11 +75,13 @@ h1{
         --Xpos: 50vw;
         --Ypos: 50vh;
          display: none;
+         z-index: 999999;
          
       }
 
 
       #flashlight:before {
+        z-index: 999999;
         content: "";
         width: 100vw;
         height: 100vh;
