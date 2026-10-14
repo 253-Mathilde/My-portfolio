@@ -15,3 +15,4 @@ https://icons.getbootstrap.com/icons/github/
 https://opengameart.org/content/stingray-sprite-animated-4-directional
 https://opengameart.org/content/o2-the-rescue-assets-comp-1501a
 https://ezgif.com/
+https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-332986035
