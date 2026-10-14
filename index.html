@@ -8,6 +8,7 @@
      <link rel="icon"  href="https://i.imgur.com/dvb8o4T.gif" type="image/gif">
 </head>
 <body onload="setInterval(step,100)">
+   <div class="page-screenshot">
  <!--background-->
  <img src="graphics/sand.png" style="position:absolute; pointer-events:none; z-index: -20; bottom:0vh; margin:0; left:0;">
  <img src="graphics/rock.png" style="position:absolute; pointer-events:none; z-index: 10; bottom:0vh; margin:0; left:0;">
@@ -15,12 +16,11 @@
  <img src="graphics/red.png" style="position:absolute; pointer-events:none; z-index: 10; bottom:0vh;">
  <img src="graphics/mussel.png" style="position:absolute; pointer-events:none; z-index: -20; bottom:0vh; left:-0.2vw;">
  <img src="graphics/green.png" style="position:absolute; pointer-events:none;z-index: 10; bottom:1vh;">
-    <!--flashlight effect-->
-    <div id="flashlight"></div>
+   
     <!-- heading and info -->
     <h1>Mathilde G.</h1>
     <p id="info">(~~~~~~~~~ <img src="graphics/github.svg" style="filter: brightness(0) saturate(100%) invert(89%) sepia(29%) saturate(550%) hue-rotate(350deg) brightness(91%) contrast(93%);     height: 1.6vw;width: auto;top: 0.4vw; position: relative;"> @253-Mathilde~~~~~~~~)</p>
-    <img id="taschenlampe" src="graphics/Flashlight.png"style="z-index: 9999; position: absolute; pointer-events: all !important; user-select: none;    top: 26.5vw;left: 19vh;">
+    <img id="taschenlampe" src="graphics/Flashlight.png"style="z-index: 9999; position: absolute; pointer-events: all !important; user-select: none;    bottom: 17.9vw; left: 9.7vw;">
     
 
    <!--fishes,animal -->
@@ -44,8 +44,8 @@
     <img src="graphics/fishes/fish_blue1.png" style="animation: move-horizontal-right  40s linear infinite; position:absolute; top:36vw; left:5%; height:auto; z-index:30; ">
 
 
-   <img src="graphics/free_jellyfish_icon_by_koffeelam_d5i91o3.gif" style="animation: move-up 50s linear infinite; position:absolute; bottom:-6vh; left:60vw;">
-   <img src="graphics/free_jellyfish_icon_pink__by_koffeelam_d5i91uw.gif" style="animation: move-up 60s linear infinite; position:absolute; bottom:-16vh; left:40vw;">"
+   <img src="graphics/free_jellyfish_icon_by_koffeelam_d5i91o3.gif" style="animation: move-up 50s linear infinite; position:absolute; bottom:-6vh; left:60vw;  z-index:99999;">
+   <img src="graphics/free_jellyfish_icon_pink__by_koffeelam_d5i91uw.gif" style="animation: move-up 60s linear infinite; position:absolute; bottom:-16vh; left:40vw; z-index:99999;">"
 
    <!--houses -->
     <img src="graphics/6.png" id="contact" style="position:absolute;">
@@ -58,6 +58,12 @@
     <audio id="audio" loop>
       <source src="graphics/sergepavkinmusic-deep-in-the-ocean-116172.mp3" type="audio/mpeg">
     </audio>
+    </div>
+    
+    
+    
+    <!--flashlight effect-->
+    <div id="flashlight"></div>
     <script src="script.js"></script>
 </body>
 </html>
