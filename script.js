@@ -39,3 +39,14 @@ taschenlampe.addEventListener("click", function(){
     flashlightDiv.style.display = "block";
   }
 });
+
+
+eventTarget.addEventListener("keydown", (event) => {
+ if (event.key === 'l' || event.key === 'L') {
+   if (flashlightDiv.style.display === "block") {
+    flashlightDiv.style.display = "none";
+  } else {
+    flashlightDiv.style.display = "block";
+  }
+  }
+});
