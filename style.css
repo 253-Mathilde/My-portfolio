@@ -109,12 +109,14 @@ h1{
 
 
 
+
+
     @keyframes move-horizontal {
   from {
-    transform: translateX(100%);
+    transform: translateX(100vw);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-100vw);
   }
 }
 
