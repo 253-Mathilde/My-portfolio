@@ -93,3 +93,11 @@ h1{
       }
     
 
+
+#starlogo{
+    -webkit-mask-image: url(https://i.imgur.com/iE8ff6N.png);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    width: 20px;
+    height: auto;}
