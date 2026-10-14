@@ -11,3 +11,4 @@ https://www.cursors-4u.com/editor
 https://pixeljoint.com/pixelart/136474.htm
 https://www.mf2fm.com/rv/dhtmlbubblecursor.php
 https://angel-rs.github.io/css-color-filter-generator/
+https://icons.getbootstrap.com/icons/github/
