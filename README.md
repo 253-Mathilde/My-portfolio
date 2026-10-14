@@ -13,3 +13,4 @@ https://www.mf2fm.com/rv/dhtmlbubblecursor.php
 https://angel-rs.github.io/css-color-filter-generator/
 https://icons.getbootstrap.com/icons/github/
 https://opengameart.org/content/stingray-sprite-animated-4-directional
+https://opengameart.org/content/o2-the-rescue-assets-comp-1501a
