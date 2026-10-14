@@ -45,6 +45,7 @@ src:url('graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('wof
    color:  #ffcd85;;
    position:absolute;
    top:12.5vw;
+   left:50%;
   transform: translateX(-50%);
   text-align: center;
    font-weight: 600;
@@ -62,8 +63,8 @@ h1{
     text-align: center;
     align-items: center;
     display: flex;
+    left:50%;
   transform: translateX(-50%);
-  text-align: center;
     opacity: 0.5;
 }
 
