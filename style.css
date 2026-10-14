@@ -42,10 +42,12 @@ src:url('graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('wof
 
 #info{
   font-family:"fineliner";
-   color: darkblue;
+   color:  #ffcd85;;
    position:absolute;
-   top:15vw;
+   top:14vw;
    padding-left:50%;
+   font-weight: 600;
+   font-size:1.5vw;
 }
 
 h1{
