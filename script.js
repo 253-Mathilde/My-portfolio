@@ -86,7 +86,7 @@ addLoadEvent(buble);
 function buble() { if (document.getElementById) {
   var i, rats, div;
   for (i=0; i<bubbles; i++) {
-    rats=createDiv("3px", "3px");
+    rats=createDiv("1px", "1px");
     rats.style.visibility="hidden";
 	rats.style.zIndex=(over_or_under=="over")?"1001":"0";
 
@@ -136,8 +136,8 @@ function bubble() {
     for (c=0; c<bubbles; c++) if (!bubby[c]) {
       bubb[c].left=(bubbx[c]=x+30)+"px";
       bubb[c].top=(bubby[c]=y+20)+"px";
-      bubb[c].width="3px";
-      bubb[c].height="3px"
+      bubb[c].width="2px";
+      bubb[c].height="2px"
       bubb[c].visibility="visible";
       bubbs[c]=3;
       break;
