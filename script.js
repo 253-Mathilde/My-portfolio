@@ -61,8 +61,8 @@ var over_or_under="under"; // set to "over" for bubbles to always be on top, or 
 *  http://www.mf2fm.com/rv  *
 * DON'T EDIT BELOW THIS BOX *
 ****************************/
-var x=ox=600;
-var y=oy=700;
+var x=ox=400;
+var y=oy=300;
 var swide=1000;
 var shigh=800;
 var sleft=sdown=0;
