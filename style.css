@@ -158,6 +158,8 @@ animation-iteration-count: infinite;
 position:absolute;
 bottom:10vh;
 left:60.5vw;
+z-index:-10;
+pointer-events:all;
 }
 
 .disk {

@@ -50,9 +50,9 @@ window.addEventListener("keydown", (event) => {
   }
   }
 });
-
+const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
-music.addEventListener("click", function() {
+cd.addEventListener("click", function() {
   if (music.paused) {
     music.play();
   } else {
