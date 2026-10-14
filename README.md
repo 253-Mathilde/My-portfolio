@@ -17,3 +17,4 @@ https://opengameart.org/content/o2-the-rescue-assets-comp-1501a
 https://ezgif.com/
 https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-332986035
 https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-(Pink)-332986280
+https://codepen.io/mochi-resources/pen/LYQPZqM
