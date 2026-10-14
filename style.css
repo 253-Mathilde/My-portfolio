@@ -125,15 +125,15 @@ font-style: italic;
   }
 }
 
-
-  @keyframes move-horizontal-right {
+@keyframes move-horizontal-right {
   from {
-    transform: translateX(-100vw);
+    transform: translateX(-100vw) scaleX(-1);
   }
   to {
-    transform: translateX(100vw);
+    transform: translateX(100vw) scaleX(-1);
   }
 }
+
 
 
 
