@@ -41,7 +41,7 @@ taschenlampe.addEventListener("click", function(){
 });
 
 
-eventTarget.addEventListener("keydown", (event) => {
+window.addEventListener("keydown", (event) => {
  if (event.key === 'l' || event.key === 'L') {
    if (flashlightDiv.style.display === "block") {
     flashlightDiv.style.display = "none";
