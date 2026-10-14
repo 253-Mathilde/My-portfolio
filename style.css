@@ -36,9 +36,12 @@ a,button,input,textarea,label,[role=button],select,option{cursor:inherit!importa
 src:url('graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('woff');
 }
 
+@font-face {font-family: "fineliner";
+ src: url('graphics/fineliner_script_1_.otf') format('opentype');
+}
 
 #info{
-  font-family:"Captain America";
+  font-family:"fineliner";
    color: darkblue;
    position:absolute;
    top:15vw;
