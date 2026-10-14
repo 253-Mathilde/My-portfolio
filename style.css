@@ -107,11 +107,16 @@ h1{
     width: 20px;
     height: auto;}
 
+  h1:hover{ 
+font-style: italic;
+}  
+  #info:hover{ 
+font-style: italic;
+}  
 
 
 
-
-    @keyframes move-horizontal {
+  @keyframes move-horizontal {
   from {
     transform: translateX(100vw);
   }
@@ -120,6 +125,15 @@ h1{
   }
 }
 
+
+  @keyframes move-horizontal-right {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
 
 
 
