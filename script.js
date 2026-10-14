@@ -51,8 +51,8 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-var colours=new Array("#a6f", "#60f", "#60f", "#a6f", "#ccc"); // colours for top, right, bottom and left borders and background of bubbles
-var bubbles=30; // maximum number of bubbles on screen
+var colours=new Array("#178567", "#053029", "#3A6A64", "#122F33", "#03140E"); // colours for top, right, bottom and left borders and background of bubbles
+var bubbles=99; // maximum number of bubbles on screen
 var over_or_under="under"; // set to "over" for bubbles to always be on top, or "under" to allow them to float behind other objects
 
 /****************************
@@ -61,10 +61,10 @@ var over_or_under="under"; // set to "over" for bubbles to always be on top, or 
 *  http://www.mf2fm.com/rv  *
 * DON'T EDIT BELOW THIS BOX *
 ****************************/
-var x=ox=400;
-var y=oy=300;
-var swide=800;
-var shigh=600;
+var x=ox=600;
+var y=oy=700;
+var swide=1000;
+var shigh=800;
 var sleft=sdown=0;
 var bubb=new Array();
 var bubbx=new Array();
@@ -134,8 +134,8 @@ function bubble() {
     ox=x;
     oy=y;
     for (c=0; c<bubbles; c++) if (!bubby[c]) {
-      bubb[c].left=(bubbx[c]=x)+"px";
-      bubb[c].top=(bubby[c]=y-3)+"px";
+      bubb[c].left=(bubbx[c]=x+30)+"px";
+      bubb[c].top=(bubby[c]=y+20)+"px";
       bubb[c].width="3px";
       bubb[c].height="3px"
       bubb[c].visibility="visible";
