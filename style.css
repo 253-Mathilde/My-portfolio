@@ -134,6 +134,14 @@ font-style: italic;
   }
 }
 
+@keyframes move-up {
+  from {
+    transform: translateY(100vh) scaleX(-1);
+  }
+  to {
+    transform: translateY(-100vh) scaleX(-1);
+  }
+}
 
 
 
