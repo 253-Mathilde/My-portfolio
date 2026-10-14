@@ -51,6 +51,21 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
+const music = document.getElementById("audio");
+music.addEventListener("click", function() {
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
+});
+
+
+
+
+
+
+
 var colours=new Array("#178567", "#053029", "#3A6A64", "#122F33", "#03140E"); // colours for top, right, bottom and left borders and background of bubbles
 var bubbles=49; // maximum number of bubbles on screen
 var over_or_under="under"; // set to "over" for bubbles to always be on top, or "under" to allow them to float behind other objects
