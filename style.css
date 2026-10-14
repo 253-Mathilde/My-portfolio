@@ -44,10 +44,11 @@ src:url('graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('wof
   font-family:"fineliner";
    color:  #ffcd85;;
    position:absolute;
-   top:14vw;
+   top:12.5vw;
    padding-left:50%;
    font-weight: 600;
    font-size:1.5vw;
+    opacity: 0.7;
 }
 
 h1{
