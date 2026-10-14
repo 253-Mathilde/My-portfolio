@@ -161,7 +161,7 @@ function update_bubb(i) {
     bubby[i]-=bubbs[i]/2+i%2;
     bubbx[i]+=(i%5-2)/5;
     if (bubby[i]>sdown && bubbx[i]>sleft && bubbx[i]<sleft+swide+bubbs[i]) {
-	  if (Math.random()<bubbs[i]/shigh*2 && bubbs[i]++<8) {
+	  if (Math.random()<bubbs[i]/shigh*2 && bubbs[i]++<4) {
 		bubb[i].width=bubbs[i]+"px";
 		bubb[i].height=bubbs[i]+"px";
 	  }
