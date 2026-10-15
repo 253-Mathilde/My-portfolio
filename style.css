@@ -71,7 +71,7 @@ src:url('graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('wof
     opacity: 0.7;
      white-space: nowrap;
      z-index:200000;
-     pointer-events: all;
+      pointer-events: all;
 }
 
 h1{
@@ -91,6 +91,12 @@ h1{
       z-index:200000;
       pointer-events: all;
 }
+ h1:hover{ 
+font-style: italic;
+}  
+  #info:hover{ 
+font-style: italic;
+}  
 
 
       #flashlight {
@@ -131,12 +137,6 @@ h1{
     width: 20px;
     height: auto;}
 
- h1:hover{ 
-font-style: italic;
-}  
-  #info:hover{ 
-font-style: italic;
-}  
 
 
 
@@ -208,17 +208,34 @@ pointer-events:all;
 
 
 
-.site-desktop { display: none; }
-.site-tablet  { display: none; }
-.site-mobile  { display: block; }
-@media screen and (min-width: 48em) {
-  .site-desktop { display: none; }
-  .site-tablet  { display: block; } 
-  .site-mobile  { display: none; }
+.site-desktop {
+  display: none;
 }
-@media screen and (min-width: 100em) {
-  .site-desktop { display: block; }
-  .site-tablet  { display: none; }
-  .site-mobile  { display: none; }
+.site-tablet {
+  display: none;
 }
-
+.site-mobile {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .site-desktop {
+    display: none;
+  }
+  .site-tablet {
+    display: block;
+  }
+  .site-mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .site-desktop {
+    display: block;
+  }
+  .site-tablet {
+    display: none;
+  }
+  .site-mobile {
+    display: none;
+  }
+}
