@@ -206,16 +206,20 @@ pointer-events:all;
 
 
 
-
-  .site-tablet, .site-mobile {
+.site-tablet, .site-mobile {
   display: none;
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+.site-desktop {
+  display: block;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px), 
+       screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
   .site-desktop { display: none; }
+  .site-mobile  { display: none; }
   .site-tablet  { display: block; }
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait) {
   .site-desktop { display: none; }
+  .site-tablet  { display: none; }
   .site-mobile  { display: block; }
 }
