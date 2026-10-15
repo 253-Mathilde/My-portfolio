@@ -210,12 +210,12 @@ pointer-events:all;
   .site-tablet, .site-mobile {
   display: none;
 }
-@media screen and (max-width: 1024px) and (min-width: 601px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   .site-desktop { display: none; }
   .site-tablet  { display: block; }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .site-desktop { display: none; }
   .site-mobile  { display: block; }
 }
