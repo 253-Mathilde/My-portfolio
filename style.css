@@ -1,24 +1,28 @@
 body {
-    background-image: url(graphics/sea.png);
-    background-position: bottom center;
-    background-attachment: fixed;
-    background-repeat:no-repeat;
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
-}
+    overflow: hidden;}
+    
 
 .page-screenshot {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    pointer-events:none;
+    position: relative; /* Das sorgt dafür, dass absolute Elemente sich an diesem Screen ausrichten */
+    pointer-events: none;
     margin: 0;
-    padding:0;
-
+    padding: 0; 
+    background-size: cover;
+    background-image: url(graphics/sea.png);
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
+
+
+
 
 
 /*
@@ -173,7 +177,7 @@ animation-duration: 3s;
 animation-iteration-count: infinite;
 position:absolute;
 bottom:4.7vw;
-left:60.5vw;
+right: 37.8vw; 
 z-index:10;
 pointer-events:all;
 }
