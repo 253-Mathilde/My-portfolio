@@ -8,6 +8,7 @@
      <link rel="icon"  href="https://i.imgur.com/dvb8o4T.gif" type="image/gif">
 </head>
 <body onload="setInterval(step,100)">
+  <div class="site-desktop">
    <div class="page-screenshot">
  <!--background-->
  <img src="graphics/sand.png" style="position:absolute; display:block; pointer-events:none; z-index: 3; bottom:0vh; left:0; width: 100vw;object-fit: fill;">
@@ -52,13 +53,13 @@
 
 
     <!-- music-->
-     <div id="music_mussel" style="position:absolute; margin:0; padding:0;bottom:0vh; left: 52vw; width: 14vw; height: 35vh;">
-    <img class="disk" id="disk" src="https://i.postimg.cc/ZqhVJxg3/CD.png" alt="cd" style="width: 20%; height: auto; position: absolute; bottom: 28%; left: 57%;  z-index: 9999; pointer-events: all !important; user-select: none;"> 
+    <div id="music_mussel" style="position: absolute; margin: 0; padding: 0; bottom: 0vh; left: 52vw; width: 14vw; height: 35vh;">
+    <img class="disk" id="disk" src="https://i.postimg.cc/ZqhVJxg3/CD.png" alt="cd" style="width: 20%; height: auto; position: absolute; bottom: 28%; left: 57%; z-index: 9999; pointer-events: all !important; user-select: none;"> 
     <audio id="audio" loop>
-      <source src="graphics/sergepavkinmusic-deep-in-the-ocean-116172.mp3" type="audio/mpeg">
+    <source src="graphics/sergepavkinmusic-deep-in-the-ocean-116172.mp3" type="audio/mpeg">
     </audio> 
-    <img src="graphics/mussel.png" style="position:absolute; pointer-events:none; z-index: 100; bottom:-13%; margin:0; right:-377%; width:1060%; height:auto;">
     </div>
+    <img src="graphics/mussel.png" style="position: absolute; pointer-events: none; z-index: 90; bottom: -2.6vh; right:-11.7%; width: 130vw; height: auto; max-width: none;">
    
 
     <!--flashlight styling -->
@@ -69,11 +70,20 @@
 
 
     </div>
-    
-    
-    
     <!--flashlight effect-->
     <div id="flashlight"></div>
+    </div>
+
+
+
+    <div class="site-tablet">
+      tablet under construction
+    </div>
+
+     <div class="site-mobile">
+      tablet under construction
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
