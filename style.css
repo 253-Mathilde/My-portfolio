@@ -2,9 +2,8 @@ body {
     background-image: url(graphics/sea.png);
     background-position: bottom center;
     background-attachment: fixed;
-     overflow-x: hidden;
-     overflow-y:hidden;
-     margin: 0;
+    background-repeat:no-repeat;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -16,6 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     pointer-events:none;
+    margin: 0;
+    padding:0;
+
 }
 
 
