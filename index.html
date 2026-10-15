@@ -13,7 +13,7 @@
  <img src="graphics/sand.png" style="position:absolute; display:block; pointer-events:none; z-index: 3; bottom:0vh; left:0; width: 100vw;object-fit: fill;">
  <img src="graphics/yellow.png" style="position:absolute; pointer-events:none;z-index: 10; bottom:0vh;">
  <img src="graphics/red.png" style="position:absolute; pointer-events:none; z-index: 10; bottom:0vh;">
- <img src="graphics/mussel.png" style="position:absolute; pointer-events:none; z-index: 10; bottom:0vh; left:-0.2vw;">
+
  <img src="graphics/green.png" style="position:absolute; pointer-events:none;z-index: 10; bottom:1vh;">
    
     <!-- heading and info -->
@@ -52,13 +52,16 @@
 
 
     <!-- music-->
-    <img class="disk" id="disk" src="https://i.postimg.cc/ZqhVJxg3/CD.png" alt="cd"> 
+     <div id="music_mussel" style="position:absolute; margin:0; padding:0;bottom:0vh; left: 52vw; width: 14vw; height: 35vh;">
+    <img class="disk" id="disk" src="https://i.postimg.cc/ZqhVJxg3/CD.png" alt="cd" style="width: 25%; height: auto; position: absolute; bottom: 25%; left: 55%;  z-index: 9999; pointer-events: all !important; user-select: none;"> 
     <audio id="audio" loop>
       <source src="graphics/sergepavkinmusic-deep-in-the-ocean-116172.mp3" type="audio/mpeg">
     </audio> 
+    <img src="graphics/mussel.png" style="position:absolute; pointer-events:none; z-index: 100; bottom:-13%; margin:0; right:-377%; width:1060%; height:auto;">
+    </div>
+   
 
-
-
+    <!--flashlight styling -->
      <div id="rock_lamp" style="position:absolute; margin:0; padding:0;bottom:-0.3vh; left: 0; width: 14vw; height: 35vh; ">
     <img src="graphics/rock.png" style="position:absolute; pointer-events:none; z-index: 10; bottom:0; margin:0; left:0; width:auto; height:300%;">
      <img id="taschenlampe" src="graphics/Flashlight.png" style="width: 25%; height: auto; position: absolute; bottom: 95%; left: 55%;  z-index: 9999; pointer-events: all !important; user-select: none;">
