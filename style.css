@@ -207,17 +207,18 @@ pointer-events:all;
 
 
 
+
 .site-desktop { display: none; }
 .site-tablet  { display: none; }
-.site-mobile  { display: block; } 
-@media screen and (min-width: 36em) {
+.site-mobile  { display: block; }
+@media screen and (min-width: 48em) {
   .site-desktop { display: none; }
-  .site-tablet  { display: block; }
-  .site-mobile  { display: none; } 
+  .site-tablet  { display: block; } 
+  .site-mobile  { display: none; }
 }
 @media screen and (min-width: 100em) {
   .site-desktop { display: block; }
-  .site-tablet  { display: none; } 
-  .site-mobile  { display: none; } 
+  .site-tablet  { display: none; }
+  .site-mobile  { display: none; }
 }
 
