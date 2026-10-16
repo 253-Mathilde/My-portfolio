@@ -65,11 +65,7 @@ cd.addEventListener("click", function() {
 const contact = document.getElementById("contact");
 
 contact.addEventListener("click", function() {
-
-
-
-
-  
+window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/contact");
 });
 
 
