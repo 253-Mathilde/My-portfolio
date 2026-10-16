@@ -62,8 +62,15 @@ cd.addEventListener("click", function() {
 
 
 
+const contact = document.getElementById("contact");
+
+contact.addEventListener("click", function() {
 
 
+
+
+  
+});
 
 
 var colours=new Array("#178567", "#053029", "#3A6A64", "#122F33", "#03140E"); // colours for top, right, bottom and left borders and background of bubbles
