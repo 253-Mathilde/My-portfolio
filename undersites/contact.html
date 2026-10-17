@@ -8,11 +8,25 @@
      <link rel="icon"  href="https://i.imgur.com/dvb8o4T.gif" type="image/gif">
   </head>
   <body>
-
-    <img class="disk" id="disk" src="https://i.postimg.cc/ZqhVJxg3/CD.png" style="position: absolute; width: 1.9%; height: auto; bottom: 8%; left: 60.5%; z-index: 9999; pointer-events: all; user-select: none;">
-    <audio id="audio" loop><source src="graphics/sergepavkinmusic-deep-in-the-ocean-116172.mp3" type="audio/mpeg"></audio>
     <div class="site-desktop">
-        <h1>Contact</h1> 
+    <h1>Contact</h1> 
+
+    <!-- music player-->
+    <img class="disk" id="disk" src="https://i.postimg.cc/ZqhVJxg3/CD.png" style="position: absolute; width: 1.9%; height: auto; bottom: 8%; left: 60.5%; z-index: 9999; pointer-events: all; user-select: none;">
+    <audio id="audio" loop><source src="../graphics/sergepavkinmusic-deep-in-the-ocean-116172.mp3" type="audio/mpeg"></audio>
+
+
+    <!--flashlight styling -->
+     <div id="rock_lamp" style="position:absolute; margin:0; padding:0;bottom:-0.3vh; left: 0; width: 14vw; height: 35vh; ">
+    <img src="../graphics/rock.png" style="position:absolute; pointer-events:none; z-index: 10; bottom:0; margin:0; left:0; width:auto; height:300%;">
+     <img id="taschenlampe" src="../graphics/Flashlight.png" style="width: 25%; height: auto; position: absolute; bottom: 95%; left: 55%;  z-index: 9999; pointer-events: all !important; user-select: none;">
+    </div>
+
+
+    </div>
+    <!--flashlight effect-->
+    <div id="flashlight"></div>
+    </div>
     </div>
 
     <div class="site-tablet">

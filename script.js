@@ -4,6 +4,14 @@ message = message.substr(1) + message.substr(0,1);
 document.title = message.substr(0,15);
 }
 
+if (window.location.pathname.endsWith('index.html')) {
+   const contact = document.getElementById("contact");
+
+contact.addEventListener("click", function() {
+window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/contact");
+});
+};
+
 const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
 cd.addEventListener("click", function() {
@@ -62,12 +70,6 @@ window.addEventListener("keydown", (event) => {
 
 
 
-
-const contact = document.getElementById("contact");
-
-contact.addEventListener("click", function() {
-window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/contact");
-});
 
 
 var colours=new Array("#178567", "#053029", "#3A6A64", "#122F33", "#03140E"); // colours for top, right, bottom and left borders and background of bubbles
