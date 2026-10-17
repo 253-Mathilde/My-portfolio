@@ -4,6 +4,15 @@ message = message.substr(1) + message.substr(0,1);
 document.title = message.substr(0,15);
 }
 
+const cd = document.getElementById("disk");
+const music = document.getElementById("audio");
+cd.addEventListener("click", function() {
+  if (music.paused) {
+    music.play();
+  } else {
+    music.pause();
+  }
+});
 
 let mouseX = 0;
 let mouseY = 0;
@@ -50,15 +59,7 @@ window.addEventListener("keydown", (event) => {
   }
   }
 });
-const cd = document.getElementById("disk");
-const music = document.getElementById("audio");
-cd.addEventListener("click", function() {
-  if (music.paused) {
-    music.play();
-  } else {
-    music.pause();
-  }
-});
+
 
 
 
