@@ -31,6 +31,32 @@
   }
 }
 
+.disk {
+width: 5%;
+height: 5%;
+object-fit: cover;
+-webkit-mask-image: url(https://i.postimg.cc/3RYpcLqS/14.png);
+-webkit-mask-size: 100%;
+-webkit-mask-repeat: no-repeat;
+-webkit-mask-position: center;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+position:absolute;
+bottom:4.7vw;
+right: 37.8vw; 
+z-index:10;
+pointer-events:all;
+}
+
+.disk {
+        animation-name: spin;
+        animation-timing-function: linear;
+    }
+    @keyframes spin {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+    }
+
 
 
 
