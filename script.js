@@ -4,13 +4,12 @@ message = message.substr(1) + message.substr(0,1);
 document.title = message.substr(0,15);
 }
 
-if (window.location.pathname.endsWith('index.html')) {
-   const contact = document.getElementById("contact");
-
-contact.addEventListener("click", function() {
-window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/contact");
-});
-};
+const contact = document.getElementById("contact");
+if (contact) {
+    contact.addEventListener("click", function() {
+        window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/contact");
+    });
+}
 
 const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
