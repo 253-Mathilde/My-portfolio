@@ -15,6 +15,7 @@ const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
 cd.addEventListener("click", function() {
   if (music.paused) {
+    console.log("Versuche Musik abzuspielen...");
     music.play();
   } else {
     music.pause();
