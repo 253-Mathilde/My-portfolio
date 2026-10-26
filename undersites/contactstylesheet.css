@@ -284,9 +284,80 @@ pointer-events:all;
   left:20vmin;
   position:absolute;
   top:40vmin;
-  z-index:333;
+  z-index:333;      
+  font-family:"fineliner";
+   color:  #ffcd85;
+   text-align: center;
+   font-weight: 800;
+   font-size:1.5vw;
 }
 
 .githover:hover {
   overflow: visible;
+   width: auto;  
+}
+
+
+
+
+
+.githover1 {
+  overflow: hidden; 
+  pointer-events:all;
+  width:18%;
+  height:20%;
+  left:83vmin;
+  position:absolute;
+  top:60vmin;
+  z-index:333;      
+  font-family:"fineliner";
+   color:  #ffcd85;
+   text-align: center;
+   font-weight: 800;
+   font-size:1.5vw;
+}
+
+.githover1:hover {
+  overflow: visible;
+   width: auto;  
+}
+
+
+
+.githover2 {
+  overflow: hidden; 
+  pointer-events:all;
+  width:18%;
+  height:20%;
+  left:120vmin;
+  position:absolute;
+  top:30vmin;
+  z-index:333;      
+  font-family:"fineliner";
+   color:  #ffcd85;
+   text-align: center;
+   font-weight: 800;
+   font-size:1.5vw;
+}
+
+.githover2:hover {
+  overflow: visible;
+   width: auto;  
+}
+
+
+
+#my-form{
+  z-index:3000000;
+  pointer-events:all;
+  background-color:#ffcd85;
+  border-radius:16px;
+  border: white 4px dashed;
+  height:40vmin;
+  width:20vw;
+  position:relative;
+  left:100.1%;
+  top:-100%;
+  margin:0;
+
 }
