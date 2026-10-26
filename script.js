@@ -104,12 +104,16 @@ function addLoadEvent(funky) {
 
 addLoadEvent(buble);
 
-function buble() { if (document.getElementById) {
-  var i, rats, div;
-  for (i=0; i<bubbles; i++) {
+function buble() { 
+  if (document.getElementById) { 
+  if (document.querySelector(".bubble-cursor-generated")) return; 
+
+    var i, rats, div;
+    for (i=0; i<bubbles; i++) {
     rats=createDiv("1px", "1px");
+    rats.classList.add("bubble-cursor-generated");
     rats.style.visibility="hidden";
-	rats.style.zIndex=(over_or_under=="over")?"1001":"0";
+    rats.style.zIndex=(over_or_under=="over")?"1001":"0";
 
     div=createDiv("auto", "auto");
     rats.appendChild(div);
@@ -142,12 +146,13 @@ function buble() { if (document.getElementById) {
     if (navigator.appName=="Microsoft Internet Explorer") div.filter="alpha(opacity=50)";
     else div.opacity=0.5;
     document.body.appendChild(rats);
-    bubb[i]=rats.style;
+      bubb[i]=rats.style;
+    }
+    set_scroll();
+    set_width();
+    bubble();
   }
-  set_scroll();
-  set_width();
-  bubble();
-}}
+}
 
 function bubble() {
   var c;
