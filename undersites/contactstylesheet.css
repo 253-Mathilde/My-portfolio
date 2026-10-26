@@ -351,7 +351,7 @@ pointer-events:all;
   z-index:3000000;
   font-size:1em;
   pointer-events:all;
-  background-color:#ffcd85;
+  background-color: #ffcd85;
   border-radius:16px;
   border: white 4px dashed;
   height:40vmin;
@@ -369,3 +369,29 @@ pointer-events:all;
   -ms-overflow-style: none; 
   padding:2%;
   }
+
+
+
+  
+.ball2 {
+   z-index:333;
+  animation: float 15.5s ease-in-out infinite;
+  width: 11vmin;       
+  aspect-ratio: 1 / 1; 
+  border-radius: 50%;
+  position: relative;
+  top:40%;
+  left:50%;
+  background: radial-gradient(
+    circle at 75% 30%,
+    white 5px,
+    lightyellow 8%,
+    lightyellow 60%,
+    lightyellow 100%
+  );
+  box-shadow: inset 0 0 20px #fde9ea4f, inset 10px 0 46px #36d5e0bb,
+    inset 88px 0px 60px #ffcd85, inset -20px -60px 100px #ffcc85cb,
+    inset 0 50px 140px #fde9eabd, 0 0 90px #fde9eabd;
+}
+
+
