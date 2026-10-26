@@ -20,3 +20,5 @@ https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-(Pink)-332986280
 https://codepen.io/mochi-resources/pen/LYQPZqM
 https://pixabay.com/de/users/sergepavkinmusic-6130722/
 https://codepen.io/Jelilicent/pen/oNzPjEo
+https://www.sitepoint.com/community/t/how-can-i-show-text-on-hover/290337
+Static Forms
