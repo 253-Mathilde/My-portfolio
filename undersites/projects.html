@@ -6,8 +6,7 @@
     <title>253-Mathilde</title>
     <link rel="stylesheet" href="projectsstylesheet.css">
      <link rel="icon"  href="https://i.imgur.com/dvb8o4T.gif" type="image/gif">
-      <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/CustomEase.min.js"></script>
+     
 </head>
 <body onload="setInterval(step,100)">
   <div class="site-desktop">
@@ -46,7 +45,7 @@
     
 
     <!--book-->
-    <div style="pointer-events:all; z-index:9999;">
+    <div style="pointer-events:all; z-index:9999; position:absolute; bottom:7vmin; left:50%; transform: translate(-50%, -50%);">
     <svg width="0" height="0" aria-hidden="true">
     <filter id="motion-blur-light"><feGaussianBlur stdDeviation="5 0" /></filter>
     <filter id="motion-blur-heavy"><feGaussianBlur stdDeviation="14 0" /></filter>
@@ -59,90 +58,112 @@
     </div>
     <button class="arrow" id="nextButton">›</button>
     </div>
-</div>
+     <p class="caption" id="caption"></p>
+</div> 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/CustomEase.min.js"></script>
     <script>
 const pages = [
-  { src: "../graphics/side 1.png", title: "Kyoto Performing Arts Hall" },
-  { src: "../graphics/side2.png", title: "Kyoto Garden Museum" },
-  { src: "../graphics/side3.png", title: "Western Castle" },
-  { src: "../graphics/side4.png", title: "Taipei Night Market" },
-  { src: "../graphics/side5.png", title: "Osaka Castle" },
+  { src: "../graphics/side 1.png", title: "" },
+  { src: "../graphics/side2.png", title: "" },
+  { src: "../graphics/side3.png", title: "" },
+  { src: "../graphics/side4.png", title: "" },
+  { src: "../graphics/side5.png", title: "" },
 ];
-
 gsap.registerPlugin(CustomEase);
-CustomEase.create("pageTurn", ".42,.05,.25,1");
+    CustomEase.create("pageTurn", ".42,.05,.25,1");
 
-let currentPage = 0;
-let flipTween = null;
+    let currentPage = 0;
+    let flipTween = null;
+    let introPlaying = false;
 
-const halfImage = (pageIndex, side) =>
-  `<img src="${pages[pageIndex].src}" class="${side}">`;
+    const halfImage = (pageIndex, side) =>
+      `<img src="${pages[pageIndex].src}" class="${side}">`;
 
-function showPage(pageIndex) {
-  currentPage = pageIndex;
-  const pageEl = document.getElementById("page");
-  pageEl.innerHTML = `
-    <div class="half left">${halfImage(pageIndex, "left")}</div>
-    <div class="half right">${halfImage(pageIndex, "right")}</div>`;
-  
-  const captionEl = document.getElementById("caption");
-  if (captionEl) {
-    captionEl.textContent = pages[pageIndex].title;
-    gsap.fromTo(captionEl, { opacity: 0 }, { opacity: 1, duration: 0.4, overwrite: "auto" });
-  }
-}
-
-function turn(direction, duration = 0.85, ease = "pageTurn", onDone) {
-  if (flipTween && flipTween.isActive()) {
-    flipTween.progress(1);
-  }
-
-  const goingNext = direction === "next";
-  const targetPage = (currentPage + (goingNext ? 1 : -1) + pages.length) % pages.length;
-
-  const liftSide = goingNext ? "right" : "left";
-  const landSide = goingNext ? "left" : "right";
-  const bookEl = document.getElementById("book");
-
-  const flap = document.createElement("div");
-  flap.className = `flap ${goingNext ? "next" : "prev"}`;
-  flap.innerHTML = `
-    <div class="face front">${halfImage(currentPage, liftSide)}</div>
-    <div class="face back">${halfImage(targetPage, landSide)}</div>
-  `;
-  bookEl.appendChild(flap);
-
-  gsap.set(flap, { transformOrigin: goingNext ? "left center" : "right center" });
-  gsap.set(flap.querySelector(".face.back img"), { scaleX: -1 });
-
-  flipTween = gsap.timeline({
-    onComplete: () => {
-      flap.remove();
-      if (onDone) onDone();
+    function showPage(pageIndex) {
+      currentPage = pageIndex;
+      page.innerHTML = `
+        <div class="half left">${halfImage(pageIndex, "left")}</div>
+        <div class="half right">${halfImage(pageIndex, "right")}</div>`;
     }
-  });
 
-  flipTween.to(flap, {
-    rotationY: goingNext ? -90 : 90,
-    duration: duration / 2,
-    ease: "power1.in"
-  });
+    function setCaption(title) {
+      caption.textContent = title;
+      gsap.fromTo(caption, { opacity: 0 }, { opacity: 1, duration: 0.4, overwrite: "auto" });
+    }
 
-  flipTween.call(() => {
-    showPage(targetPage);
-  });
+    function turn(direction, duration = 0.85, ease = "pageTurn", onDone) {
+      if (flipTween && flipTween.isActive()) {
+        flipTween.progress(1);
+      }
 
-  flipTween.to(flap, {
-    rotationY: goingNext ? -180 : 180,
-    duration: duration / 2,
-    ease: "power1.out"
-  });
-}
+      const goingNext = direction === "next";
+      const targetPage = (currentPage + (goingNext ? 1 : -1) + pages.length) % pages.length;
 
-document.getElementById("nextButton").addEventListener("click", () => turn("next"));
-document.getElementById("prevButton").addEventListener("click", () => turn("prev"));
+      const liftSide = goingNext ? "right" : "left";
+      const landSide = goingNext ? "left" : "right";
 
-showPage(0);
+      book.insertAdjacentHTML("beforeend", `
+        <div class="turn">
+          <div class="half ${liftSide}">${halfImage(targetPage, liftSide)}</div>
+          <div class="flap ${goingNext ? "next" : "prev"}">
+            <div class="face">${halfImage(currentPage, liftSide)}</div>
+            <div class="face back">${halfImage(targetPage, landSide)}</div>
+          </div>
+        </div>`);
+
+      setCaption(pages[targetPage].title);
+
+      flipTween = gsap.to(book.querySelector(".flap"), {
+        rotationY: goingNext ? -180 : 180,
+        transformOrigin: goingNext ? "left center" : "right center",
+        duration: duration,
+        ease: ease,
+        onComplete() {
+          showPage(targetPage);
+          book.querySelector(".turn").remove();
+          if (onDone) onDone();
+        }
+      });
+    }
+
+    function riffle(step = 0) {
+      if (!introPlaying || step >= pages.length) {
+        introPlaying = false;
+        book.classList.remove("blur-light", "blur-heavy");
+        return;
+      }
+
+      const bell = Math.sin(Math.PI * step / (pages.length - 1));
+      book.classList.toggle("blur-light", bell > 0.25 && bell <= 0.6);
+      book.classList.toggle("blur-heavy", bell > 0.6);
+
+      turn("next", 0.2 - 0.15 * bell, "none", () => riffle(step + 1));
+    }
+
+    function navigate(direction) {
+      introPlaying = false;
+      turn(direction);
+    }
+
+    nextButton.onclick = () => navigate("next");
+    prevButton.onclick = () => navigate("prev");
+
+    book.onclick = event =>
+      navigate(event.offsetX < book.offsetWidth / 2 ? "prev" : "next");
+
+    addEventListener("keydown", event => {
+      if (event.key === "ArrowRight") navigate("next");
+      if (event.key === "ArrowLeft") navigate("prev");
+    });
+
+    showPage(0);
+    setCaption(pages[0].title);
+
+    gsap.delayedCall(0.2, () => {
+      introPlaying = true;
+      riffle();
+    });
   </script>
   
   
