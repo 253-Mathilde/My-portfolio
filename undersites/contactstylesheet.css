@@ -349,6 +349,7 @@ pointer-events:all;
 
 #my-form{
   z-index:3000000;
+  font-size:1em;
   pointer-events:all;
   background-color:#ffcd85;
   border-radius:16px;
@@ -359,5 +360,12 @@ pointer-events:all;
   left:100.1%;
   top:-100%;
   margin:0;
-
-}
+  color:darkblue;
+  text-align:left;
+  overflow-y:auto;
+    &::-webkit-scrollbar {
+    display: none;}
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+  padding:2%;
+  }
