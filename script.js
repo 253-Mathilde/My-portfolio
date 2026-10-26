@@ -11,6 +11,12 @@ if (contact) {
     });
 }
 
+const projects = document.getElementById("projects");
+if (projects) {
+    projects.addEventListener("click", function() {
+        window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/projects");
+    });
+}
 const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
 cd.addEventListener("click", function() {
