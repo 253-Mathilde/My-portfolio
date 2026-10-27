@@ -240,17 +240,37 @@ pointer-events:all;
     height:400px;
     width:950px;
     position:relative;
-    pointer-events:none;
+    
     overflow-y: auto;
     overflow-x:hidden;
-    z-index:999;
+    z-index:200;
     left:50%;
     transform: translate(-50%, -50%); 
     top:45%;
      -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;
+  pointer-events:alls;
 }
 
 #window::-webkit-scrollbar {
   display: none;
+}
+
+details summary::marker {
+    content: "";
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+#menu{
+    position: fixed;
+    color:white;
+    z-index:300;
+    top:9.5%;
+    left:4.5%;
+    background-color:white;
+    border-radius:10px;
+    pointer-events: all;
 }
