@@ -52,15 +52,10 @@ src:url('../graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('
 
 #info{
   font-family:"fineliner";
-   color:  #ffcd85;
-   position:absolute;
-   top:12.5vw;
-   left:50%;
-  transform: translateX(-50%);
-  text-align: center;
+   color:  darkcyan;
+   text-align: center;
    font-weight: 600;
    font-size:1.5vw;
-    opacity: 0.7;
      white-space: nowrap;
      z-index:200000;
       pointer-events: all;
@@ -75,7 +70,7 @@ h1{
 color:darkred;
 }  
   #info:hover{ 
-font-style: italic;
+color:darkred;
 }  
 
 
@@ -108,14 +103,6 @@ font-style: italic;
       }
     
 
-
-#starlogo{
-    -webkit-mask-image: url(https://i.imgur.com/iE8ff6N.png);
-    -webkit-mask-size: 100%;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    width: 20px;
-    height: auto;}
 
 
 
@@ -346,9 +333,10 @@ details summary::-webkit-details-marker {
 #Graphiccontent{
     display: none;
       z-index: 300;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom:0;
     position:relative;
     text-align:center;
     left:50%; 
@@ -377,3 +365,22 @@ details summary::-webkit-details-marker {
       z-index: 300;
       position:relative;
 }
+
+
+
+
+#starlogo{
+    -webkit-mask-image: url(https://i.imgur.com/iE8ff6N.png);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1; 
+    position:relative;
+    height:65%;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;   
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    }
