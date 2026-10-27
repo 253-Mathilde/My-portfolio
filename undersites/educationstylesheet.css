@@ -241,13 +241,143 @@ pointer-events:all;
 }
 
 
+.parent::-webkit-scrollbar {
+  display: none;
+}
+
+#stardance::-webkit-scrollbar {
+  display: none;
+}
 
 
 
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 18px;
+    position: relative;
+    z-index:70;
+    height:30%;
+    width:60%;
+    overflow-y:auto;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    pointer-events: all;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+    text-align: center;
+    margin:0;
+    padding:2px;
+}
+    
+.div5 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    height:15vmin;
+    width:30vmin;
+}
+
+.div6 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div7 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div8 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div9 {
+    grid-row-start: 3;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div10 {
+    grid-row-start: 3;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div11 {
+    grid-row-start: 3;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div12 {
+    grid-row-start: 3;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div13 {
+    grid-row-start: 4;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div14 {
+    grid-row-start: 4;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div15 {
+    grid-row-start: 4;
+     height:15vmin;
+     width:30vmin;
+}
+
+.div16 {
+    grid-row-start: 4;
+     height:15vmin;
+     width:30vmin;
+}
+      
 
 
 
+/*width*/
+#stardance::-webkit-scrollbar {
+  width:10px;
+}
+
+/*track*/
+#stardance::-webkit-scrollbar-track {
+  background:rgb(251, 236, 169);
+  border-width:1px;
+  border-style:solid;
+  border-color:paleturquoise;
+  border-radius:16px;
+}
+
+/*thumb*/
+#stardance::-webkit-scrollbar-thumb {
+  background:paleturquoise;
+  border-width:1px;
+  border-style:dotted;
+  border-color:rgb(251, 236, 169);
+  border-radius:16px 16px 26px;
+  border-top-left-radius:16px;
+  border-top-right-radius:16px;
+  border-bottom-left-radius:16px;
+  border-bottom-right-radius:26px;
+}
 
 
 
