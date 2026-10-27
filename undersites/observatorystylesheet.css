@@ -95,13 +95,13 @@ font-style: italic;
         --Xpos: 50vw;
         --Ypos: 50vh;
          display: none;
-         z-index: 999999;
+         z-index: 99999;
          
       }
 
 
       #flashlight:before {
-        z-index: 999999;
+        z-index: 99999;
         content: "";
         width: 100vw;
         height: 100vh;
@@ -234,3 +234,23 @@ pointer-events:all;
 
 
 
+#window{
+    background-image: url('../graphics/observatory/background for the main.png');
+    background-size:cover;
+    height:400px;
+    width:950px;
+    position:relative;
+    pointer-events:none;
+    overflow-y: auto;
+    overflow-x:hidden;
+    z-index:999;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    top:45%;
+     -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+#window::-webkit-scrollbar {
+  display: none;
+}
