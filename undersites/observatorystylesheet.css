@@ -67,24 +67,12 @@ src:url('../graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('
 }
 
 h1{
-    font-family: "Pacifico";
-    color: #ffcd85;
-    font-size: 9.2vw;
-    position: absolute;
-    top: 1.8vw;
-    margin: 0;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    left:50%;
-  transform: translateX(-50%);
-    opacity: 0.5;
-     white-space: nowrap;
-      z-index:200000;
+    font-family: "Captain America";
+    color: darkcyan;
       pointer-events: all;
 }
  h1:hover{ 
-font-style: italic;
+color:darkred;
 }  
   #info:hover{ 
 font-style: italic;
@@ -275,11 +263,34 @@ details summary::-webkit-details-marker {
     pointer-events: all;
     display: inline-flex;
    align-items: center;
+   text-align: center;
    gap: 10px;
    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-
+#content{
+    z-index: 300;
+    position:relative;
+    text-align:center;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    top:30%;
+    width:90%;
+    margin-top:10%;
+    height:60%;
+    overflow-y: auto;
+    overflow-x:none;
+    pointer-events:all;
+     -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:18;
+}
+#content::-webkit-scrollbar {
+  display: none;
+}
 #Home:hover{
     color:black;
 }
@@ -305,6 +316,25 @@ details summary::-webkit-details-marker {
     display: none;
     z-index: 300;
     position:relative;
+    text-align:center;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    top:30%;
+    width:90%;
+    margin-top:10%;
+    height:60%;
+    overflow-y: auto;
+    overflow-x:none;
+    pointer-events:all;
+     -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:18;
+}
+#Homecontent::-webkit-scrollbar {
+  display: none;
 }
 
 #HTMLcontent{
@@ -316,7 +346,26 @@ details summary::-webkit-details-marker {
 #Graphiccontent{
     display: none;
       z-index: 300;
-      position:relative;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    position:relative;
+    text-align:center;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    top:30%;
+    width:90%;
+    margin-top:10%;
+    height:60%;
+    overflow-y: auto;
+    overflow-x:hidden;
+    pointer-events:all;
+     -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;
+   font-family: "Oswald", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size:18;
 }
 #CSScontent{
     display: none;

@@ -102,6 +102,7 @@ const Graphiccontent = document.getElementById("Graphiccontent");
 const HTMLcontent = document.getElementById("HTMLcontent");
 const CSScontent = document.getElementById("CSScontent");
 const Basicscontent = document.getElementById("Basicscontent");
+const content = document.getElementById("content");
 if (Home) {
     Home.addEventListener("click", function() {
       Homecontent.style.display = "block";
@@ -109,24 +110,27 @@ if (Home) {
       HTMLcontent.style.display = "none";
       CSScontent.style.display = "none";
       Basicscontent.style.display = "none";
+      content.style.display = "none";
     });
 }
 if (Graphic) {
     Graphic.addEventListener("click", function() {
       Homecontent.style.display = "none";
-      Graphiccontent.style.display = "block";
+      Graphiccontent.style.display = "grid";
       HTMLcontent.style.display = "none";
       CSScontent.style.display = "none";
       Basicscontent.style.display = "none";
+        content.style.display = "none";
     });
 }
 if (HTML) {
     HTML.addEventListener("click", function() {
       Homecontent.style.display = "none";
       Graphiccontent.style.display = "none";
-      HTMLcontent.style.display = "block";
+      HTMLcontent.style.display = "grid";
       CSScontent.style.display = "none";
       Basicscontent.style.display = "none";
+        content.style.display = "none";
     });
 }
 if (ACSS) {
@@ -134,8 +138,9 @@ if (ACSS) {
       Homecontent.style.display = "none";
       Graphiccontent.style.display = "none";
       HTMLcontent.style.display = "none";
-      CSScontent.style.display = "block";
+      CSScontent.style.display = "grid";
       Basicscontent.style.display = "none";
+        content.style.display = "none";
     });
 }
 if (Basics) {
@@ -144,7 +149,8 @@ if (Basics) {
       Graphiccontent.style.display = "none";
       HTMLcontent.style.display = "none";
       CSScontent.style.display = "none";
-      Basicscontent.style.display = "block";
+      Basicscontent.style.display = "grid";
+        content.style.display = "none";
     });
 }
 
