@@ -17,6 +17,14 @@ if (projects) {
         window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/projects");
     });
 }
+
+const education = document.getElementById("education");
+if (education) {
+    education.addEventListener("click", function() {
+        window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/education");
+    });
+}
+
 const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
 cd.addEventListener("click", function() {
