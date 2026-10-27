@@ -25,6 +25,15 @@ if (education) {
     });
 }
 
+
+const style = document.getElementById("style");
+if (style) {
+    style.addEventListener("click", function() {
+        window.location.assign("https://253-mathilde.github.io/My-portfolio/undersites/observatory");
+    });
+}
+
+
 const cd = document.getElementById("disk");
 const music = document.getElementById("audio");
 cd.addEventListener("click", function() {
