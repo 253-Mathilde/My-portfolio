@@ -92,8 +92,61 @@ window.addEventListener("keydown", (event) => {
 });
 
 
-
-
+const Home = document.getElementById("Home");
+const Graphic = document.getElementById("Graphics");
+const HTML = document.getElementById("HTML");
+const ACSS = document.getElementById("CSS");
+const Basics = document.getElementById("Basics");
+const Homecontent = document.getElementById("Homecontent");
+const Graphiccontent = document.getElementById("Graphiccontent");
+const HTMLcontent = document.getElementById("HTMLcontent");
+const CSScontent = document.getElementById("CSScontent");
+const Basicscontent = document.getElementById("Basicscontent");
+if (Home) {
+    Home.addEventListener("click", function() {
+      Homecontent.style.display = "block";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "none";
+    });
+}
+if (Graphic) {
+    Graphic.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "block";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "none";
+    });
+}
+if (HTML) {
+    HTML.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "block";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "none";
+    });
+}
+if (ACSS) {
+    ACSS.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "block";
+      Basicscontent.style.display = "none";
+    });
+}
+if (Basics) {
+    Basics.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "block";
+    });
+}
 
 var colours=new Array("#178567", "#053029", "#3A6A64", "#122F33", "#03140E"); // colours for top, right, bottom and left borders and background of bubbles
 var bubbles=49; // maximum number of bubbles on screen

@@ -266,11 +266,65 @@ details summary::-webkit-details-marker {
 
 #menu{
     position: fixed;
-    color:white;
+    color:#7CFBD1;
     z-index:300;
     top:9.5%;
     left:4.5%;
-    background-color:white;
+    background-color:darkgrey;
     border-radius:10px;
     pointer-events: all;
+    display: inline-flex;
+   align-items: center;
+   gap: 10px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#Home:hover{
+    color:black;
+}
+
+#Graphics:hover{
+    color:black;
+}
+
+#HTML:hover{
+    color:black;
+}
+
+#CSS:hover{
+    color:black;
+}
+
+#Basics:hover{
+    color:black;
+}
+
+
+#Homecontent{
+    display: none;
+    z-index: 300;
+    position:relative;
+}
+
+#HTMLcontent{
+    display: none;
+      z-index: 300;
+      position:relative;
+}
+
+#Graphiccontent{
+    display: none;
+      z-index: 300;
+      position:relative;
+}
+#CSScontent{
+    display: none;
+      z-index: 300;
+      position:relative;
+}
+#Basicscontent{
+    display: none;
+      z-index: 300;
+      position:relative;
 }
