@@ -450,7 +450,7 @@ details summary::-webkit-details-marker {
       overflow: scroll;
       overflow-x: hidden;
       height: 60%;
-      width:100%;
+      width:90%;
       padding: 1%;
       margin:2%;
       font-size:10px;
@@ -511,7 +511,7 @@ margin-left:2%; }
     color:  darkcyan;
     text-align:left;
     font-weight: 600;
-    font-size:1.7vw;
+    font-size:1.1vw;
      z-index:200000;
       pointer-events: all;
       margin:2%;
@@ -548,7 +548,7 @@ margin-left:2%; }
       overflow: scroll;
       overflow-x: hidden;
       height: 40%;
-      width:100%;
+      width:90%;
       padding: 1%;
       margin:2%;
       font-size:10px;
