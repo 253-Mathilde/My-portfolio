@@ -393,10 +393,31 @@ details summary::-webkit-details-marker {
    font-size:18;
 }
 #CSScontent{
-    display: none;
+   display: none;
       z-index: 300;
-      position:relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4%;
+    margin-bottom:0;
+    position:relative;
+    text-align:center;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    top:30%;
+    width:90%;
+    margin-top:10%;
+    height:60%;
+    overflow-y: auto;
+    overflow-x:hidden;
+    pointer-events:all;
+     -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;
+   font-family: "Oswald", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size:18;
 }
+
 #Basicscontent{
     display: none;
       z-index: 300;
@@ -429,6 +450,104 @@ details summary::-webkit-details-marker {
       overflow: scroll;
       overflow-x: hidden;
       height: 60%;
+      width:100%;
+      padding: 1%;
+      margin:2%;
+      font-size:10px;
+      color:#00576C;
+      border-top: 3.5px double #000;
+      border-left: 3.5px double #000;
+      border-right: 3.5px double #7CFBD1;;
+      border-bottom: 3.5px double #7CFBD1;;
+      position: relative;
+      
+    }
+    
+
+
+
+  .containercss {  display: grid;
+  grid-template-columns: 0.6fr 0.4fr 2fr;
+  grid-template-rows: 0.7fr 1.3fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "img Name-source ."
+    ". . ."
+    ". . .";
+    position:relative;
+    height:55%;
+    width:40%;
+}
+
+.img { grid-area: img; }
+
+.Name-source { grid-area: Name-source;
+position:relative;
+width:70%;
+height:auto;
+margin-left:2%; }
+
+.container_s_n {  
+  margin-left:18%;
+  padding-top:18%;
+  width:18%;
+  position:relative;
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr 1fr;
+  grid-template-rows: 0.3fr 1.7fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "source . ."
+    "name . ."
+    ". . .";
+}
+
+.source { grid-area: source; }
+
+.name { grid-area: name;
+    font-family:"fineliner";
+    color:  darkcyan;
+    text-align:left;
+    font-weight: 600;
+    font-size:1.7vw;
+     z-index:200000;
+      pointer-events: all;
+      margin:2%;
+      width:20%;
+      position:relative;
+      white-space: nowrap;
+ }
+
+ .name:hover{
+  color:darkred;
+ }
+
+
+ #starslogo{
+    -webkit-mask-image: url(https://i.imgur.com/8r4Nx8e.png);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1; 
+    position:relative;
+    height:25%;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;   
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    margin-left:2%;
+    margin-right:14%;
+    }
+
+
+      #container1{
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 40%;
       width:100%;
       padding: 1%;
       margin:2%;
