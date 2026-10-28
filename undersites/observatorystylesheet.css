@@ -1,5 +1,5 @@
 body {
-    background-color:#00576C;
+    background-color: #00576C;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0; 
     background-size: cover;
-    background-image: url(../graphics/sea.png);
+    background-image: url(../graphics/observatory/sterne.png);
     background-position: bottom center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ details summary::-webkit-details-marker {
 #menu{
     position: fixed;
     color:#7CFBD1;
-    z-index:300;
+    z-index:9999;
     top:9.5%;
     left:4.5%;
     background-color:darkgrey;
@@ -366,6 +366,9 @@ details summary::-webkit-details-marker {
    font-style: normal;
    font-size:18;
 }
+#Graphiccontent::-webkit-scrollbar {
+  display: none;
+}
 
 #Graphiccontent{
     display: none;
@@ -394,7 +397,7 @@ details summary::-webkit-details-marker {
 }
 #CSScontent{
    display: none;
-      z-index: 300;
+    z-index: 300;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 4%;
@@ -417,14 +420,84 @@ details summary::-webkit-details-marker {
    font-style: normal;
    font-size:18;
 }
+#CSScontent::-webkit-scrollbar {
+  display: none;
+}
 
 #Basicscontent{
-    display: none;
-      z-index: 300;
-      position:relative;
+
+   z-index: 300;
+   -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:18px;
+  pointer-events:all;
+  position:relative;
+  text-align:center;
+  display: none;
+  height:85%;
+  width:96%;
+  margin-left:2%;
+  margin-top:2%;
+  overflow-y: auto;
+  overflow-x:hidden;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: 1fr 1.2fr 0.8fr 1fr 1fr;
+  gap: 4%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ".  heading"
+    "base-code file-structure"
+    "start start"
+    "start start"
+    "code code";
+
+
+}
+
+#Basicscontent::-webkit-scrollbar {
+  display: none;
 }
 
 
+.heading { grid-area: heading; }
+
+.base-code { grid-area: base-code; }
+
+.file-structure { grid-area: file-structure; }
+
+.start {  padding-top:2%; padding-left:4%; position:relative; grid-area: start;  }
+
+.code { grid-area: code;}
+
+
+@font-face {
+src: url(https://dl.dropbox.com/s/pvxh5hqzpnhbzxe/Angelface%202.otf);
+font-family: angelface;
+}
+
+#basicsheading{
+font-family: angelface;
+font-size: 3em;
+position:relative;
+bottom:0;
+margin:0;
+margin-top:4%;
+background: linear-gradient(
+135deg, 
+ #fedb37 0%, 
+ #fdb933 25%, 
+#9f7928 50%, 
+ #8a6f27 55%,  #fdb933 75%, 
+  #fedb37 100% );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline wavy;
+   text-decoration-thickness: 2px;
+}
 
 
 #starlogo{
@@ -561,3 +634,90 @@ margin-left:2%; }
       
     }
     
+
+
+    
+      #container2{
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 140%;
+      width:90%;
+      padding: 4%;
+      margin:2%;
+      margin-left:10%;
+      top:-30%;
+      font-size:10px;
+      color:#00576C;
+      border-top: 3.5px double #000;
+      border-left: 3.5px double #000;
+      border-right: 3.5px double #7CFBD1;;
+      border-bottom: 3.5px double #7CFBD1;;
+      position: relative;
+      border-radius:16px;
+      z-index: 300;
+     -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;
+      
+    }
+
+    #container2::-webkit-scrollbar {
+  display: none;
+}
+
+
+textarea {
+    resize: none !important;
+}
+
+
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-left: 0;
+  }
+
+
+
+  table {
+ width: 60%;
+ position: relative;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ top: 95%;
+ border-collapse: separate;
+ border-spacing: 0; 
+ border-radius: 30px;
+ border: 5px solid #7CFBD1;
+ overflow: hidden;
+ font-size:13px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  th, td {
+    padding: 8px; 
+    text-align: center;
+  }
+
+  th{
+    background-color:grey;
+  }
+
+  th[data-code]::before {
+  content: attr(data-code);
+  font-family: monospace;
+  white-space: pre;
+}
+
+
+
+  td{
+    background-color:whitesmoke;
+  }
+
+  td[data-code]::before {
+  content: attr(data-code);
+  font-family: monospace;
+  white-space: pre;
+}
