@@ -61,15 +61,32 @@ src:url('../graphics/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff') format('
       pointer-events: all;
 }
 
+#info1{
+  font-family:"fineliner";
+   color:  darkcyan;
+   text-align:left;
+   font-weight: 600;
+   font-size:1.5vw;
+     white-space: nowrap;
+     z-index:200000;
+      pointer-events: all;
+      margin:2%;
+}
+
 h1{
     font-family: "Captain America";
     color: darkcyan;
       pointer-events: all;
+      
 }
  h1:hover{ 
 color:darkred;
 }  
   #info:hover{ 
+color:darkred;
+}  
+
+  #info1:hover{ 
 color:darkred;
 }  
 
@@ -325,9 +342,29 @@ details summary::-webkit-details-marker {
 }
 
 #HTMLcontent{
-    display: none;
+     display: none;
       z-index: 300;
-      position:relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3%;
+    margin-bottom:0;
+    position:relative;
+    text-align:center;
+    left:50%; 
+    transform: translate(-50%, -50%);
+    top:30%;
+    width:90%;
+    margin-top:10%;
+    height:60%;
+    overflow-y: auto;
+    overflow-x:hidden;
+    pointer-events:all;
+     -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;
+   font-family: "Oswald", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size:18;
 }
 
 #Graphiccontent{
@@ -384,3 +421,24 @@ details summary::-webkit-details-marker {
     transform: translateZ(0);
     backface-visibility: hidden;
     }
+
+
+
+
+    #container{
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 60%;
+      width:100%;
+      padding: 1%;
+      margin:2%;
+      font-size:10px;
+      color:#00576C;
+      border-top: 3.5px double #000;
+      border-left: 3.5px double #000;
+      border-right: 3.5px double #7CFBD1;;
+      border-bottom: 3.5px double #7CFBD1;;
+      position: relative;
+      
+    }
+    
