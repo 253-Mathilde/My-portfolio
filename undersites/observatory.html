@@ -231,81 +231,135 @@
     <div class="div81" style="height:25vmin; width:100%; position:relative;">
     <p id="info1"> Opening/closing textbox<img src="https://i.imgur.com/rOMwgiB.gif"></p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+    <details><summary>This text shows when closed</summary>
+    <p>And this text shows when opend,you can style it per id</p>
+    </details>
     </textarea>
     </div>
     <div class="div91" style="height:25vmin; width:100%; position:relative;">
-    <p id="info1">Images in a row</p>
+    <p id="info1">Easy menu <img src="https://i.imgur.com/rOMwgiB.gif"></p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+    <details id="menu">
+   <summary><img src="icon_for_your_menu">Menu</summary>
+   <!--Just change the content,if you also change the id's make sure to change them in the CSS/JS too-->
+      <p id="Home">  Home</p> 
+      <p id="Graphics">Graphics</p> 
+      <p id="HTML">HTML</p> 
+      <p id="CSS">CSS</p> 
+      <p id="Basics">Basics  </p>
+      </details>
+      <div id="Homecontent" style="display:none;"></div>
+      <div id="Graphiccontent" style="display:none;"></div>
+      <div id="HTMLcontent" style="display:none;"></div>
+      <div id="CSScontent" style="display:none;"></div>
+      <div id="Basiccontent" style="display:none;"></div>
+      <div id="content">This shows at the beginning,make sure that it has the same content as HOME</div>
+      <script>
+const Home = document.getElementById("Home");
+const Graphic = document.getElementById("Graphics");
+const HTML = document.getElementById("HTML");
+const ACSS = document.getElementById("CSS");
+const Basics = document.getElementById("Basics");
+const Homecontent = document.getElementById("Homecontent");
+const Graphiccontent = document.getElementById("Graphiccontent");
+const HTMLcontent = document.getElementById("HTMLcontent");
+const CSScontent = document.getElementById("CSScontent");
+const Basicscontent = document.getElementById("Basicscontent");
+const content = document.getElementById("content");
+if (Home) {
+    Home.addEventListener("click", function() {
+      Homecontent.style.display = "block"; /*here it is block cause there is no grid */
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "none";
+      content.style.display = "none";
+    });
+}
+if (Graphic) {
+    Graphic.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "grid"; /*here it is grid cause there is a grid on this site
+      If you don't have a grid there change it to block or leave it :)*/
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "none";
+        content.style.display = "none";
+    });
+}
+if (HTML) {
+    HTML.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "grid";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "none";
+        content.style.display = "none";
+    });
+}
+if (ACSS) {
+    ACSS.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "grid";
+      Basicscontent.style.display = "none";
+        content.style.display = "none";
+    });
+}
+if (Basics) {
+    Basics.addEventListener("click", function() {
+      Homecontent.style.display = "none";
+      Graphiccontent.style.display = "none";
+      HTMLcontent.style.display = "none";
+      CSScontent.style.display = "none";
+      Basicscontent.style.display = "grid";
+        content.style.display = "none";
+    });
+}
+</script>
     </textarea>
     </div>
     <div class="div101"style="height:25vmin; width:100%; position:relative;">
-     <p id="info1">Images in a row</p>
+     <p id="info1">More coming soon</p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+    more coming soon,if you have wishes for something 
+    -> in the city->contact->to the bubble with the message icon->send me a message
     </textarea>
     </div>
     <div class="div111" style="height:25vmin; width:100%; position:relative;">
-    <p id="info1">Images in a row</p>
+    <p id="info1">More coming soon</p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+     more coming soon,if you have wishes for something 
+    -> in the city->contact->to the bubble with the message icon->send me a message
     </textarea>
     </div>
     <div class="div121" style="height:25vmin; width:100%; position:relative;">
-    <p id="info1">Images in a row</p>
+    <p id="info1">More coming soon</p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+     more coming soon,if you have wishes for something 
+    -> in the city->contact->to the bubble with the message icon->send me a message
     </textarea>
     </div>
     <div class="div131" style="height:25vmin; width:100%; position:relative;">
-    <p id="info1">Images in a row</p>
+    <p id="info1">More coming soon</p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+     more coming soon,if you have wishes for something 
+    -> in the city->contact->to the bubble with the message icon->send me a message
     </textarea>
     </div>
     <div class="div141" style="height:25vmin; width:100%; position:relative;">
-    <p id="info1">Images in a row</p>
+    <p id="info1">More coming soon</p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+     more coming soon,if you have wishes for something 
+    -> in the city->contact->to the bubble with the message icon->send me a message
     </textarea>
     </div>
     <div class="div151" style="height:25vmin; width:100%; position:relative;">
-    <p id="info1">Images in a row</p>
+    <p id="info1">More coming soon</p>
     <textarea id="container"readonly onclick="this.select()" class="code-box">
-    <div class="images" style="display:flex; gap:20px;">
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img.jpg">
-    </div>
+     more coming soon,if you have wishes for something 
+    -> in the city->contact->to the bubble with the message icon->send me a message
     </textarea>
     </div>
     </div>
