@@ -520,7 +520,7 @@ background: linear-gradient(
 
 
     #container{
-      overflow: scroll;
+      overflow: auto;
       overflow-x: hidden;
       height: 60%;
       width:90%;
@@ -708,6 +708,8 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   content: attr(data-code);
   font-family: monospace;
   white-space: pre;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 
@@ -720,4 +722,5 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   content: attr(data-code);
   font-family: monospace;
   white-space: pre;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
