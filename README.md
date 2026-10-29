@@ -5,6 +5,7 @@
   <p align="center"> <a href="https://253-mathilde.github.io/My-portfolio/" target="_blank">↪ My portfolio ↩</a></p>
   <p align="center"> Welcome to the underwater city! Here you can explore my underwater world and even find code for YOUR site!</p>
 <br>
+<details><summary align="center"> Map of the city/ User guide</summary>
 <img width="1920" height="480" alt="my portfolio guide" src="https://github.com/user-attachments/assets/a823bb53-d9fb-4391-83a1-4c12839f6be2" />
 <br>
 <br>
@@ -61,9 +62,10 @@ Let's head back to the city<br>
 That was quite a day in the city but hmmm I think I'll head back to the observatory.<br>
 Have fun and enjoy the city on your own now!!!!
 <br></p>
-<br>
+<br></details>
+<details><summary align="center">Gallery</summary>
 <img width="1920" height="480" alt="my portfolio galerie" src="https://github.com/user-attachments/assets/1cf0cece-93d6-4161-9814-5fcd1fa4f4e9" />
-
+</details>
 
 
   <br>
