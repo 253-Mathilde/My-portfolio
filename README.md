@@ -4,6 +4,15 @@
 
   <p align="center"> <a href="https://253-mathilde.github.io/My-portfolio/" target="_blank">↪ My portfolio ↩</a></p>
 
+<br>
+<img width="1920" height="480" alt="my portfolio guide" src="https://github.com/user-attachments/assets/a823bb53-d9fb-4391-83a1-4c12839f6be2" />
+
+<br>
+<br>
+<img width="1920" height="480" alt="my portfolio galerie" src="https://github.com/user-attachments/assets/1cf0cece-93d6-4161-9814-5fcd1fa4f4e9" />
+
+
+
   <br>
   <details align="center"><summary>Sources</summary>
   <img width="1920" height="480" alt="my portfolio sources" src="https://github.com/user-attachments/assets/a9581660-054c-474e-93c2-0dad2241c8f9" />
