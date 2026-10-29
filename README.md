@@ -3,11 +3,64 @@
 <br>
 
   <p align="center"> <a href="https://253-mathilde.github.io/My-portfolio/" target="_blank">↪ My portfolio ↩</a></p>
-
+  <p align="center"> Welcome to the underwater city! Here you can explore my underwater world and even find code for YOUR site!</p>
 <br>
 <img width="1920" height="480" alt="my portfolio guide" src="https://github.com/user-attachments/assets/a823bb53-d9fb-4391-83a1-4c12839f6be2" />
-
 <br>
+<br>
+<br>
+<p align="center">
+First of all: When I am talking about the city I mean the homescreen. The whole site is organized in an easy way: The Homescreen is <br>
+the city and all undersites are houses in this city. So for example: The city has a telephone site and when you "go in the telephone cell" <br>
+you are on the contact site but still in the building. That whole world thing and houses is the whole concept cause this is not supposed <br>
+to be a basic site: This is supposed to be kinda my whole world and to really feel like it's own space not just the 500th personal site <br>
+in clean and minimalistics, AI style.
+<br>
+<br>
+So let's start with the city. 
+You can hover on each building and thing that does something and you'll see a little text that tells you what to do<br>
+In the actual city you can click L/l or click on the flashlight on teh rock.<br>
+You can watch the jellyfishes,the fishes or the stingray swimm across the screen.<br>
+You can even listen to music. To listen to music just click on the disk in the mussel<br>
+The light feature and the music feature exixsts in the city and also in every building.<br>
+You can hover over the heading and see what happens or watch the bubbles the submarine leaves.<br>
+<br>
+Let's now start with a visit to the museum.<br>
+To go into the museum click on the left building that has the word museum written on it.<br>
+Now you are in the museum <br>
+Here you can explore my projects.To do so just click on the book or the 2 arrows (one on <br>
+each site).If you want to try my projekts in real live: Just click on the black link <br>
+on each site. The book has a super cool animation when you refresh the page. <br>
+To get back to the city (aka leave the building click on the home button)<br>
+<br>
+When you click on the big building next ot the museum you'll get to my Git Hub profile.<br>
+You can recognize this building on the advertisement thing on the roof<br>
+The advertisement also shows the GitHub logo.<br>
+<br>
+Let's make a call and go into the telephone cell.<br>
+Just click on it again. There you'll see 3 bubbles.<br>
+You can hover on each one to see more informations.<br>
+if you want to contact me:hover on the bubble with the message icon.<br>
+You'll see a contact form. Fill out the form and hit the send message button.<br>
+Now you should see a green line of text. When you saw that you'll know <br>
+that I got your message. <br>
+<br>
+Now we are done with our phone call and it is time to go to school.<br>
+No worries it is just a visit,you don't need to stay :).<br>
+In the school you'll see some certificates of mine.<br>
+If you truly wnat to have a resume of mine: You now know how ot make a phone call.<br>
+<br>
+Let's leave the school now and start our journey to the stars.<br>
+Click on the observatory to get to the observatory in space.<br>
+How do you get from earth to space you ask yourself now?<br>
+Wellll how do we have a city underwater. It is my code so I can do what I want.<br>
+Now we are in space and wowwwww there is some good work here.<br>
+Lot's of code,links and even finsihed working little things.<br>
+Let's head back to the city<br>
+<br>
+That was quite a day in the city but hmmm I think I'll head back to the observatory.<br>
+Have fun and enjoy the city on your own now!!!!
+<br></p>
 <br>
 <img width="1920" height="480" alt="my portfolio galerie" src="https://github.com/user-attachments/assets/1cf0cece-93d6-4161-9814-5fcd1fa4f4e9" />
 
