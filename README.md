@@ -42,3 +42,10 @@
 <br>
   </details>
 
+<img src="https://i.imgur.com/5GKP5sq.gif"> This project was made for the Hack Club summer challenge stardance in 2026.
+I don't want to steal someones work so if I forgot to meantion you in this README or used your graphics/code against your will 
+I apologise. Please message me through the contact form in the portfolio so I can take the item down.
+
+<img src="https://i.imgur.com/iD2zzHR.gif"> Woah hey there! Thanks for reading and I apologize for spelling and grammar mistakes. They just show that everything was human made. Do not forget to leave a star.
+So,so,so grateful for your interest in this project. Make sure to mention me, when using my work. <br>
+<img src="https://i.imgur.com/0RPyyh0.gif">@253-Mathilde <img src="https://i.imgur.com/Q4ihmD0.gif">
