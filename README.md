@@ -75,16 +75,16 @@ Have fun and enjoy the city on your own now!!!!
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185139.png" />
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185146.png" />
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185204.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185215.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/1.png" />
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185236.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185245.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185251.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185256.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;" src="graphics/readme/Screenshot 2026-10-29 185302.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/2.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/3.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/4.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;" src="graphics/readme/5.png" />
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185309.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;" src="graphics/readme/Screenshot 2026-10-29 185315.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;" src="graphics/readme/6.png" />
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185330.png" />
-  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 185440.png" />
+  <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/7.png" />
  
 </div>
 </details>
