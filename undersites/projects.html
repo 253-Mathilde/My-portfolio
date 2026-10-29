@@ -58,17 +58,17 @@
     </div>
     <button class="arrow" id="nextButton">›</button>
     </div>
-     <p class="caption" id="caption"></p>
+      <a class="caption" id="caption" target="_blank" href=""></a> 
 </div> 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/CustomEase.min.js"></script>
     <script>
 const pages = [
-  { src: "../graphics/side 1.png", title: "" },
-  { src: "../graphics/side2.png", title: "" },
-  { src: "../graphics/side3.png", title: "" },
-  { src: "../graphics/side4.png", title: "" },
-  { src: "../graphics/side5.png", title: "" },
+  { src: "../graphics/side 1.png", title: "https://github.com/253-Mathilde/Get-ready-app"},
+  { src: "../graphics/side2.png", title: "https://253-mathilde.github.io/My-first-OS/" },
+  { src: "../graphics/side3.png", title: "https://253-mathilde.github.io/Embassy/" },
+  { src: "../graphics/side4.png", title: "https://253-mathilde.github.io/sticky-ysws/" },
+  { src: "../graphics/side5.png", title: "https://253-mathilde.github.io/Ocean/" },
 ];
 gsap.registerPlugin(CustomEase);
     CustomEase.create("pageTurn", ".42,.05,.25,1");
@@ -88,7 +88,8 @@ gsap.registerPlugin(CustomEase);
     }
 
     function setCaption(title) {
-      caption.textContent = title;
+      caption.href = title;
+      caption.textContent = 'Test it out here!';
       gsap.fromTo(caption, { opacity: 0 }, { opacity: 1, duration: 0.4, overwrite: "auto" });
     }
 

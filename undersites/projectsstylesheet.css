@@ -252,7 +252,12 @@ pointer-events:all;
       font-size: 12px;
       letter-spacing: .15em;
       text-transform: uppercase;
-      color: #8a8d97;
+      color: black;
+      z-index:99999;
+      left:65%;
+      transform: translate(-50%,50%);
+      position: absolute;  
+      top:80%;
     }
 
     .arrow {
