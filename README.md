@@ -11,21 +11,22 @@
   <p align="center"> <a href="https://codingartistweb.com/2025/07/flashlight-effect-with-html-css-and-javascript/" target="_blank"> Tutorial I used for the flashlight effect</a></p>
   <p align="center"> <a href="https://www.cursors-4u.com/editor" target="_blank"> I used this site to make my cursor + for the already made spaceship cursor</a></p>
   <p align="center"> <a href="https://pixeljoint.com/pixelart/136474.htm" target="_blank"> I used this image as a base for the cursor</a></p>
-  <p align="center"> <a href="https://www.mf2fm.com/rv/dhtmlbubblecursor.php" target="_blank"> Pastebin I used</a></p>
+  <p align="center"> <a href="https://www.mf2fm.com/rv/dhtmlbubblecursor.php" target="_blank"> I used this site for the bubble cursor effect</a></p>
+  <p align="center"> <a href="https://angel-rs.github.io/css-color-filter-generator/" target="_blank"> I used this site for the color filters</a></p>
+  <p align="center"> <a href="https://icons.getbootstrap.com/icons/github/" target="_blank"> I got the github icon at the HOME SITE from here</a></p>
+  <p align="center"> <a href="https://opengameart.org/content/stingray-sprite-animated-4-directional" target="_blank"> I got the stingray from here</a></p>
+  <p align="center"> <a href="https://opengameart.org/content/o2-the-rescue-assets-comp-1501a" target="_blank"> I used some fishes from here</a></p>
+  <p align="center"> <a href="https://ezgif.com/" target="_blank"> I used this site for gifs/editing them</a></p>
+  <p align="center"> <a href="https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-332986035" target="_blank"> I used this jellyfish</a></p>
+  <p align="center"> <a href="https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-(Pink)-332986280" target="_blank"> And this one too</a></p>
+  <p align="center"> <a href="https://codepen.io/mochi-resources/pen/LYQPZqM" target="_blank"> Codepen I used</a></p>
+  <p align="center"> <a href="https://pixabay.com/de/users/sergepavkinmusic-6130722/" target="_blank"> I got the background msuic form here</a></p>
+  <p align="center"> <a href="https://codepen.io/Jelilicent/pen/oNzPjEo" target="_blank"> Codepen I used</a></p>
+  <p align="center"> <a href="https://www.sitepoint.com/community/t/how-can-i-show-text-on-hover/290337" target="_blank"> I used this for research</a></p>
+  <p align="center"> <a href="https://www.staticforms.dev/" target="_blank"> I used this for the contact form</a></p>
+  <p align="center"> <a href="https://github.com/Hank-D-Tank/x-book/blob/main/index.html" target="_blank"> I used this for the contact for the book</a></p>
+  <p align="center"> <a href="https://salesforce.widencollective.com/c/yn6bxnam" target="_blank"> I used this for the contact form</a></p>
 
-https://angel-rs.github.io/css-color-filter-generator/
-https://icons.getbootstrap.com/icons/github/
-https://opengameart.org/content/stingray-sprite-animated-4-directional
-https://opengameart.org/content/o2-the-rescue-assets-comp-1501a
-https://ezgif.com/
-https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-332986035
-https://www.deviantart.com/koffeelam/art/FREE-Jellyfish-Icon-(Pink)-332986280
-https://codepen.io/mochi-resources/pen/LYQPZqM
-https://pixabay.com/de/users/sergepavkinmusic-6130722/
-https://codepen.io/Jelilicent/pen/oNzPjEo
-https://www.sitepoint.com/community/t/how-can-i-show-text-on-hover/290337
-Static Forms
-https://salesforce.widencollective.com/c/yn6bxnam
-https://github.com/Hank-D-Tank/x-book/blob/main/index.html
+
   </details>
 
