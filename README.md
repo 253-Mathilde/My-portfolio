@@ -25,7 +25,7 @@
   <p align="center"> <a href="https://www.sitepoint.com/community/t/how-can-i-show-text-on-hover/290337" target="_blank"> I used this for research</a></p>
   <p align="center"> <a href="https://www.staticforms.dev/" target="_blank"> I used this for the contact form</a></p>
   <p align="center"> <a href="https://github.com/Hank-D-Tank/x-book/blob/main/index.html" target="_blank"> I used this for the contact for the book</a></p>
-  <p align="center"> <a href="https://salesforce.widencollective.com/c/yn6bxnam" target="_blank"> I used this for the contact form</a></p>
+  <p align="center"> <a href="https://salesforce.widencollective.com/c/yn6bxnam" target="_blank"> I used this for the Slack icon </a></p>
 
 
   </details>
