@@ -67,6 +67,8 @@ Have fun and enjoy the city on your own now!!!!
 <details><summary >Gallery<img src="https://i.imgur.com/XK8BSKl.gif"></summary>
 <img width="1920" height="480" alt="my portfolio galerie" src="https://github.com/user-attachments/assets/1cf0cece-93d6-4161-9814-5fcd1fa4f4e9" />
 <br>
+  <br>
+  <br>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 150px; max-width: 1200px; margin: 0 auto;">
   <img style="width: 49%; height: 200px; object-fit: contain;"  src="graphics/readme/Screenshot 2026-10-29 113046.png" />
   <img style="width: 49%; height: 200px; object-fit: contain;" src="graphics/readme/Screenshot 2026-10-29 185115.png" />
