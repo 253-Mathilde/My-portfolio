@@ -66,6 +66,27 @@ Have fun and enjoy the city on your own now!!!!
 <br>
 <details><summary >Gallery<img src="https://i.imgur.com/XK8BSKl.gif"></summary>
 <img width="1920" height="480" alt="my portfolio galerie" src="https://github.com/user-attachments/assets/1cf0cece-93d6-4161-9814-5fcd1fa4f4e9" />
+<br>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2%; max-width: 1200px; margin: 0 auto;">
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;" src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;" src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;" src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;" src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+  <img style="width: 32%; height: auto; object-fit: cover;"  src="" />
+ 
+</div>
 </details>
   <br>
   <details><summary >Sources<img src="https://i.imgur.com/XK8BSKl.gif"></summary>
